@@ -1,6 +1,6 @@
-# Title
+# Tell Me More
 
-출처 MLA
+Martelaro, Nikolas, et al. "Tell me more: Designing hri to encourage more trust, disclosure, and companionship." The Eleventh ACM/IEEE International Conference on Human Robot Interaction. IEEE Press, 2016.
 
 ### 한줄 요약
 
@@ -9,8 +9,6 @@
 ### 발전 방향
 
 ### 의문점 + 아쉬운점
-
-### 
 
 
 
