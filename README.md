@@ -22,7 +22,6 @@ davinnovation's read
 
 ### 의문점 + 아쉬운점
 
-### 
 
 
 
