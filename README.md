@@ -14,6 +14,8 @@ davinnovation's read
 
 ### 한줄 요약
 
+### ABSTRACT 번역
+
 ### 이 논문이 짱인점
 
 ### 발전 방향
