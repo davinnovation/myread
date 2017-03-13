@@ -1,6 +1,6 @@
-# Title
+# Dropout rates of MOOC : Behavioural patterns
 
-출처 MLA
+Onah, Daniel FO, Jane Sinclair, and Russell Boyatt. "Dropout rates of massive open online courses: behavioural patterns." EDULEARN14 Proceedings (2014): 5825-5834.
 
 ### 한줄 요약
 
