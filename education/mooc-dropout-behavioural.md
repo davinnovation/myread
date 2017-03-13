@@ -1,9 +1,3 @@
-# My Read
-
-davinnovation's read
-
-&lt; 붕어빵 틀 &gt;
-
 # Title
 
 출처 MLA
