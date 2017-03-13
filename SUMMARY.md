@@ -6,5 +6,5 @@
 
 ## UX
 
-* [First Chapter](chapter1.md)
+* [Tell Me More](chapter1.md)
 
