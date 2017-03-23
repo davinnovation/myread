@@ -6,6 +6,7 @@
 
 ## UX
 
+* [Application of Expectancy Violation Theory to Com](application-of-expectancy-violation-theory-to-com.md)
 * [Tell Me More](chapter1.md)
 
 ## Education
