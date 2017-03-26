@@ -13,3 +13,7 @@
 
 * [MOOC Dropout : behavioural](education/mooc-dropout-behavioural.md)
 
+## Deep Learning
+
+* [Uncertainty in Deep Learning](uncertainty-in-deep-learning.md)
+
