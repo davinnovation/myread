@@ -1,7 +1,5 @@
 # Cheery companions or serious assistants? _ Role and demeanor congruity as predictors of robot attraction and use intentions among senior citizens
 
-
-
 출처 MLA
 
 ### 한줄 요약
