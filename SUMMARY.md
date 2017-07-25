@@ -17,4 +17,5 @@
 ## Deep Learning
 
 * [Uncertainty in Deep Learning](uncertainty-in-deep-learning.md)
+* [Image Attack & Defense](image-attack-and-defense.md)
 
