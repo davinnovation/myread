@@ -10,13 +10,7 @@ https://arxiv.org/pdf/1511.06306.pdf
 
 ## 취약한 CNN (이미지 공격)
 
-### 1. Input Noise
-
-Image에 random noise ( 정규 분포 ) 를 추가함. 
-
-$$ X_{ijk} = x_{ijk} + N(\mu x_{ijk},\sigma^2_N) $$
-
-### 2. Universal Adversarial Perturbations - https://arxiv.org/pdf/1610.08401.pdf
+### 1. Universal Adversarial Perturbations - https://arxiv.org/pdf/1610.08401.pdf
 
 Perturbation은 '섭동'이라는 뜻인데, 천문학 기준으로는 원래의 궤도에서 벗어나게 하는 힘을 의미한다고 합니다. 
 
@@ -185,7 +179,9 @@ https://github.com/jhjin/stochastic-cnn/tree/master/demo
 
 ### Input Noise Model
 
-위의 Input Noise를 줌
+Image에 random noise ( 정규 분포 ) 를 추가함. 
+
+$$ X_{ijk} = x_{ijk} + N(\mu x_{ijk},\sigma^2_N) $$
 
 ### 충격! 논문이 정말 별거 없었다..
 
