@@ -22,3 +22,5 @@ by Nicolas Papernot and Ian Goodfellow || 번역 : 구글 번역기 + davinnovat
 : Training time 중 무결성 공격, Inference 중 무결성 공격, 그리고 privacy attack
 
 ## 트레이닝 데이터 오염시키기
+
+공격자들은 트레이닝 데이터를 수정하거나 데이터를 추가하여 훈련 과정을 방해하여 모델의 무결성을 깨트릴 수 있습니다.
