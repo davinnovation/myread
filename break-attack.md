@@ -43,3 +43,4 @@ by Nicolas Papernot and Ian Goodfellow || 번역 : 구글 번역기 + davinnovat
 
 ## 머신러닝에서의 사생활 문제
 
+사생활 문제는 공격자 개념이 포함되어 있지 않습니다. 
