@@ -4,3 +4,4 @@
 
 by Ian oodfellow and Nicolas Papernot || 번역 : 구글 번역기 + davinnovation
 
+[첫 글](http://www.cleverhans.io/security/privacy/ml/2016/12/15/breaking-things-is-easy.html) - [번역]()에서, machine learning 시스템을 공격하는 몇 가지 방법을 보여 드렸습니다.
