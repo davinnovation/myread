@@ -29,4 +29,11 @@ by Nicolas Papernot and Ian Goodfellow || 번역 : 구글 번역기 + davinnovat
 
 ## 공격받은 데이터로 모델을 착각하게 만들기
 
+사실. 데이터를 공격하는 것은 매우 쉽기 때문에 머신러닝 모델의 트레이닝 데이터까지 오염시킬 필요는 없습니다. 간단한 방해 데이터 추가를 통해서 모델이 즉시 실수를 할 수 있도록 할 수 있습니다! ( inference phase )
+
+가장 일반적인 방해 데이터 추가 방법은 adversarial example을 계산하는 겁니다.
+
+
+![images](http://cleverhans.io/assets/adversarial-example.png)
+
 ## 머신러닝에서의 사생활 문제
