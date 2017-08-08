@@ -31,11 +31,12 @@ by Nicolas Papernot and Ian Goodfellow || 번역 : 구글 번역기 + davinnovat
 
 사실. 데이터를 공격하는 것은 매우 쉽기 때문에 머신러닝 모델의 트레이닝 데이터까지 오염시킬 필요는 없습니다. 간단한 방해 데이터 추가를 통해서 모델이 즉시 실수를 할 수 있도록 할 수 있습니다! ( inference phase )
 
-가장 일반적인 방해 데이터 추가 방법은 adversarial example을 계산하는 겁니다.
-사람이 구분할 수 없는 아주 작은 방해만 주더라도, 머신러닝 모델은 틀린 예측을 합니다. 
+가장 일반적인 방해 데이터(Perturbation) 추가 방법은 adversarial example을 계산하는 겁니다. 사람이 구분할 수 없는 아주 작은 방해만 주더라도, 머신러닝 모델은 틀린 예측을 합니다. 
 
 ![images](http://cleverhans.io/assets/adversarial-example.png)
 
+사람의 눈으로는 구분할 수 없지만, 모델의 예측을 바꾸기에는 충분한 것이 중요한 포인트입니다. 이 방해 데이터(Perturbation)은 모델의 예측 오차를 증가시키며 input domain의 특정 norm을 최소화하도록 계산됩니다. 이것은 효과적으로 정상적으로 분류되던 input data를 model's decision boundary로 밀어내 다른 class로 분류하도록 합니다. 
 
+![images](http://cleverhans.io/assets/adversarial-example-crossing-decision-boundary.png)
 
 ## 머신러닝에서의 사생활 문제
