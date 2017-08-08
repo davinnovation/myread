@@ -39,6 +39,6 @@ by Nicolas Papernot and Ian Goodfellow || 번역 : 구글 번역기 + davinnovat
 
 ![images](http://cleverhans.io/assets/adversarial-example-crossing-decision-boundary.png)
 
-많은 공격이 input perturbation 계산을 위해 모델 파라미터를 알고 있는 것으로 간주합니다. 이와는 대조적으로, 몇몇 연구들은 model의 prediction만 보고 공격을 하는 방법도 있습니다. 예를 들어, 공격자가 PageRank에 알맞도록 웹사이트를 디자인 하는 방법을 알거나, spam filter를 피할 수 있도록 만드는 것이죠. 
+많은 공격이 input perturbation 계산을 위해 모델 파라미터를 알고 있는 것으로 간주합니다. 이와는 대조적으로, 몇몇 연구들은 model의 prediction만 보고 공격을 하는 방법도 있습니다. 예를 들어, 공격자가 PageRank에 알맞도록 웹사이트를 디자인 하는 방법을 알거나, spam filter를 피할 수 있도록 만드는 것이죠. 이러한 Black-Box 상황에서는, 머신러닝 모델을 '오라클' 역할을 한다고 합니다. 전략은 first query를 oracle에 던진 후, decision boundaries를 찾고... 계속 반보갛여 misclassified example를 찾아나가는 것이죠.  
 
 ## 머신러닝에서의 사생활 문제
