@@ -8,3 +8,5 @@ by Nicolas Papernot and Ian Goodfellow || 번역 : 구글 번역기 + davinnovat
 
 이 포스트에서는 어떤 공격이 머신러닝 알고리즘을 망가트릴 수 있는지 논의할 겁니다. 좀 Academic하게 말해보자면 security and privacy of machine learning입니다. Ian과 Nicolas는 cleverhans 오픈 소스 프로젝트를 만들어 머신러닝의 취약성을 벤치마킹하고 있습니다. 
 
+지금까지는, 대부분의 머신러닝은 아주 약한 위협(threat) 중에서 개발되어 왔습니다. 머신러닝 시스템은 자연스러운 상태에서 작동하도록 디자인 되었던 것이죠. 이제는, 공격적인 환경에서도 작동이 가능한 머신러닝 시스템을 디자인하고자 합니다.
+
