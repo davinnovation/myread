@@ -10,3 +10,5 @@ Adverserial example(공격받은 데이터)는 머신러닝 모델에 넣게되�
 
 ![images](http://cleverhans.io/assets/adversarial-example.png)
 
+
+지금까지는, 위와 같이 모델을 속이지 못하게 방지하는 것보다는 속이는 것이 더 쉬웠습니다.
