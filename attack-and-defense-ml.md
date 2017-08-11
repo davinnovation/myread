@@ -23,4 +23,4 @@ Adverserial example(공격받은 데이터)는 머신러닝 모델에 넣게되�
 
 ### Defensive distillation
 
-공격자의 공격 방향을 통해 모델의 decision surface를 부드럽게 만드는 방법이다. Distillation는 전에 trained 된 모델을 다른 모델로 예측하기 위해 train을 진행하는 것을 말합니다. 이는 작은 모델로 컴퓨팅 파워가 큰 모델을 흉내내는 것이 목적이였습니다. Defensive distillation은 model을 smooth하게 만드는 것이 목표이고, 모델의 사이즈가 같더라도 작동이 되어야합니다. 하나의 모델의 output을 예측하는 같은 architecture를 가진 다른 model을 만드는 것은 비직관적으로 보입니다. 
+공격자의 공격 방향을 통해 모델의 decision surface를 부드럽게 만드는 방법이다. Distillation는 전에 trained 된 모델을 다른 모델로 예측하기 위해 train을 진행하는 것을 말합니다. 이는 작은 모델로 컴퓨팅 파워가 큰 모델을 흉내내는 것이 목적이였습니다. Defensive distillation은 model을 smooth하게 만드는 것이 목표이고, 모델의 사이즈가 같더라도 작동이 되어야합니다. 하나의 모델의 output을 예측하는 같은 architecture를 가진 다른 model을 만드는 것은 비직관적으로 보입니다. 이를 달성하는 방법은 첫번째 모델은 hard label ( 100 % probability )를 주어 학습하고, 두번째 모델은 ( 95 % probability )를 주어 학습합니다. 두번째 모델은 distilled 되었다고 말할 수 있으며, 2번째 모델이 기존 모델보다 robust합니다. 
