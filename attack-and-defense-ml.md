@@ -14,3 +14,9 @@ Adverserial example(공격받은 데이터)는 머신러닝 모델에 넣게되�
 지금까지는, 위와 같이 모델을 속이지 못하게 방지하는 것보다는 속이는 것이 더 쉬웠습니다.
 
 ## 모델을 Robust하게 만들기...?
+
+머신 러닝 모델을 Robust하게 하고 공격을 완화시킬 수 있는 방어 방법은 2가지, 'Adversarial Training'과 'Defensive distillation'가 있습니다.
+
+### Adversarial Training
+
+ 
