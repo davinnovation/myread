@@ -19,4 +19,4 @@ Adverserial example(공격받은 데이터)는 머신러닝 모델에 넣게되�
 
 ### Adversarial Training
 
- 
+공격받은 데이터를 학습에 이용하여 prediction phase에서 잘 작동할 수 있도록 일반화 시키는 과정이다. 이 아이디어는 Szegedy[SZS13]에 의해 먼저 제시 되었으나, 공격받은 데이터를 생성하는 것은 높은 컴퓨팅 파워가 필요했기 때문에 실용적이진 모샣ㅆ다. 
