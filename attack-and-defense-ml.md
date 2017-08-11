@@ -23,4 +23,4 @@ Adverserial example(공격받은 데이터)는 머신러닝 모델에 넣게되�
 
 ### Defensive distillation
 
-공격자의 공격 방향을 통해 모델의 decision surface를 부드럽게 만드는 방법이다. Distillation(증류)sms 
+공격자의 공격 방향을 통해 모델의 decision surface를 부드럽게 만드는 방법이다. Distillation(증류)
