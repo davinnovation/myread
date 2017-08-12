@@ -23,7 +23,7 @@ Adverserial example(공격받은 데이터)는 머신러닝 모델에 넣게되�
 
 ### Defensive distillation
 
-공격자의 공격 방향을 통해 모델의 decision surface를 부드럽게 만드는 방법이다. Distillation는 전에 trained 된 모델을 다른 모델로 예측하기 위해 train을 진행하는 것을 말합니다. 이는 작은 모델로 컴퓨팅 파워가 큰 모델을 흉내내는 것이 목적이였습니다. Defensive distillation은 model을 smooth하게 만드는 것이 목표이고, 모델의 사이즈가 같더라도 작동이 되어야합니다. 하나의 모델의 output을 예측하는 같은 architecture를 가진 다른 model을 만드는 것은 비직관적으로 보입니다. 이를 달성하는 방법은 첫번째 모델은 hard label ( 100 % probability )를 주어 학습하고, 두번째 모델은 ( 95 % probability )를 주어 학습합니다. 두번째 모델은 distilled 되었다고 말할 수 있으며, 2번째 모델이 기존 모델보다 robust합니다. 
+공격자의 공격 방향을 통해 모델의 decision surface를 부드럽게 만드는 방법입니다. Distillation는 전에 trained 된 모델을 다른 모델로 예측하기 위해 train을 진행하는 것을 말합니다. 이는 작은 모델로 컴퓨팅 파워가 큰 모델을 흉내내는 것이 목적이였습니다. Defensive distillation은 model을 smooth하게 만드는 것이 목표이고, 모델의 사이즈가 같더라도 작동이 되어야합니다. 하나의 모델의 output을 예측하는 같은 architecture를 가진 다른 model을 만드는 것은 비직관적으로 보입니다. 이를 달성하는 방법은 첫번째 모델은 hard label ( 100 % probability )를 주어 학습하고, 두번째 모델은 ( 95 % probability )를 주어 학습합니다. 두번째 모델은 distilled 되었다고 말할 수 있으며, 2번째 모델이 기존 모델보다 robust합니다. 
 
 ## 실패한 방어 전략 "gradient masking"
 
@@ -34,4 +34,4 @@ Adverserial example(공격받은 데이터)는 머신러닝 모델에 넣게되�
 우리는 쉽게(....? 음...) gradient를 삭제할 수 있는 방법을 생각할 수 있습니다. 예를 들어 볼까요... 대부분의 이미지 분류 모델은 2가지 모델로 이루어져 있습니다. 하나는 가장 가까운 class를 output으로 주는 모델-most likely class (regression인가..)과, 하나는 각 class 마다 probabilities를 주는 모델-probability mode이 있습니다. 만약 모델의 output이 "99.9 비행기, 0.1 고양이" 라면 아주 작은 input의 변화가 output의 변화를 만들 수 있고, gradient는 '고양이' class의 확률을 높일 수 있는 방향을 알려줍니다. 모델의 output이 'airplane'만 있으면 어떨까요?
 'most likely class'만 있는 모드를 생각해보죠. 공격자는 더 이상 어디로 가야할지 모르는 상태가 되었고, 조금의 방어가 되었습니다 :) 그러나 안타깝게도, 고양이로 분류되던 고양이 사진은 여전히 고양이로 분류가 됩니다. 여기서 문제가 생기는 거죠. 공격자가 공격 포인트만 알게 되면 그 부분은 여전히 취약합니다. 우리는 모델을 'robust'하게 만든 것이 아니라, 보호하기 위해 정보를 덜 준 것 뿐입니다!
 
-우리는 이 결함있는 방어 전략을 'gradient masking'이라고 부릅니다.
+우리는 이 결함있는 방어 전략을 'gradient masking'이라고 부릅니다 - PMG16에 발표됨. 
